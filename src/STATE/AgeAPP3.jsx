@@ -22,18 +22,20 @@ function AgeApp() {
   }
 
   function updateState() {
+    // setCurrentAge(currentAge + 1);
+    // setCatAge(currentAge + 2);
     // let newAge = currentAge + 2;
     // setCurrentAge(newAge - 2);
     // catsAge(newAge - 1);
     // setCurrentAge(currentAge + 2);
     // // setCatAge(currentAge - 1);
     // // async in nature
-    setCurrentAge(function (kittens) {
-      let the_newState = kittens + 2;
-      setCatAge(the_newState - 1);
-      return the_newState;
-    });
-    //setCurrentAge((c) => c + 2);
+    // setCurrentAge(function (kittens) {
+    //   let the_newState = kittens + 2;
+    //   setCatAge(the_newState - 1);
+    //   return the_newState;
+    // });
+    // //setCurrentAge((c) => c + 2);
   }
 
   return (
