@@ -19,10 +19,16 @@ import Colors from "./STATE/ColorAPP/Colors";
 
 import ShopKeeper from "./STATE/Shop/ShopKeeper";
 
+import Basics from "./Effect/Basics";
+
+import ParentApp from "./STATE/NewColor/Parent";
+
+import EffectEvents from "./Effect/EffectEvents";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <ShopKeeper />
+    <EffectEvents />
   </React.StrictMode>
 );
 
